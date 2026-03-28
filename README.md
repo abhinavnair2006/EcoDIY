@@ -6,7 +6,7 @@ The objective of this project is to create a web platform where users can explor
 
 Frontend: HTML, CSS, JavaScript
 Storage: LocalStorage (Browser)
-Tools: VS Code, 
+Tools: VS Code 
 
 Project Modules:
 
