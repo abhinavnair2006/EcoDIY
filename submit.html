@@ -19,6 +19,32 @@
 <button id="logoutBtn" onclick="logout()" style="display:none;">Logout</button>
 </header>
 
+<section class="form-section">
+
+<form id="guideForm">
+
+<input type="text" id="title" placeholder="Project Title" required>
+
+<textarea id="materials" placeholder="Materials" required></textarea>
+
+<textarea id="steps" placeholder="Steps (7-8 steps recommended)" required></textarea>
+
+<select id="difficulty" required>
+<option value="">Select Difficulty</option>
+<option value="Easy">Easy</option>
+<option value="Medium">Medium</option>
+<option value="Hard">Hard</option>
+</select>
+
+<input type="text" id="time" placeholder="Estimated Time (e.g. 30 mins)" required>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+<script src="script.js"></script>
 
 
+</body>
 </html>
