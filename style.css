@@ -1,17 +1,14 @@
-/* RESET */
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 }
 
-/* BODY */
 body{
 font-family: 'Segoe UI', sans-serif;
 background: linear-gradient(to right,#f1f8f4,#e8f5e9);
 }
 
-/* HEADER */
 header{
 background: linear-gradient(135deg,#2c7a4b,#1b5e20);
 color:white;
@@ -20,3 +17,14 @@ text-align:center;
 box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
 
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#c8facc;
+}
