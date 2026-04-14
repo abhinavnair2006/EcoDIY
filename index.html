@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>EcoDIY Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +16,7 @@
 <a href="guides.html">Guides</a>
 <a href="submit.html">Submit</a>
 <a href="about.html">About</a>
-<a href="admin-login.html">Admin</a>
+<a href="#" onclick="goToAdmin()">Admin</a>
 </nav>
 <button id="logoutBtn" onclick="logout()" style="display:none;">Logout</button>
 <span id="adminStatus"></span>
@@ -25,6 +26,23 @@
 <h2>Turn Waste into Creative DIY Projects</h2>
 <p>Explore eco-friendly ideas and share your creativity with the world.</p>
 <a href="guides.html"><button>Explore Projects</button></a>
+</section>
+
+<section class="features">
+<div class="feature-box">
+<h3>♻️ Reuse Materials</h3>
+<p>Convert waste items into useful and creative DIY products.</p>
+</div>
+
+<div class="feature-box">
+<h3>🎨 Creative Ideas</h3>
+<p>Discover innovative projects made by people like you.</p>
+</div>
+
+<div class="feature-box">
+<h3>🌍 Eco Friendly</h3>
+<p>Promote sustainability and reduce environmental waste.</p>
+</div>
 </section>
 
 <section class="features">
@@ -46,26 +64,9 @@
 
 </section>
 
-<!-- HOW IT WORKS -->
-<section class="how">
-
-<h2>How It Works</h2>
-
-<ol>
-<li>Browse DIY projects on Guides page</li>
-<li>Submit your own creative idea</li>
-<li>Admin reviews and approves</li>
-<li>Your idea gets featured publicly</li>
-</ol>
-
-</section>
-
-
 <footer>
 <p>© 2026 EcoDIY Hub | Built for Academic Project</p>
 </footer>
-
 <script src="script.js"></script>
-
 </body>
 </html>
